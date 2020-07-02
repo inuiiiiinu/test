@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+/* ---- header ---- */
+
+.header_wrap {
+  background-color: #fff;
+}
+
+.header_flex {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.header_right {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+
+.header_box {
+  margin: auto 0;
+}
+
+.header_time {
+  font-family: 'メイリオ','Meiryo',sans-serif;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#29abe2+0,29abe2+40,00a99d+40,00a99d+100 */
+  background: #29abe2; /* Old browsers */
+  background: -moz-linear-gradient(left,  #29abe2 0%, #29abe2 31%, #00a99d 31%, #00a99d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #29abe2 0%,#29abe2 31%,#00a99d 31%,#00a99d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #29abe2 0%,#29abe2 31%,#00a99d 31%,#00a99d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#00a99d',GradientType=1 ); /* IE6-9 */
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.header_span {
+  margin-left: 20px;
+}
+
+.header_flex02 {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+
+.header_img02 {
+  height: 23px;
+  margin: auto 10px auto 0;
+}
+
+.header_a02 {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header_box02 {
+  margin: auto 0 auto 20px;
+}
+
+.header_text {
+  position: relative;
+  font-family: 'メイリオ','Meiryo',sans-serif;
+  z-index: 1;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header_text::before {
+  content: '';
+  position: absolute;
+  border-bottom: solid 5px #ffff00;
+  z-index: -1;
+  width: 215px;
+  top: 12px;
+  left: 15px;
+}
+
+.header_a03 {
+  display: inline-block;
+  font-family: 'メイリオ','Meiryo',sans-serif;
+  text-decoration: none;
+  background-image: url(img/mail_img.png);
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  padding: 12px 45px 20px;
+}
+
+.fa-envelope {
+  font-size: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.header_ul {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+
+.header_li {
+  list-style: none;
+}
+
+.header_a04 {
+  text-decoration: none;
+}
